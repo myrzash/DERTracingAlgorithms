@@ -1,0 +1,1 @@
+module.exports = STRINGS.kz;

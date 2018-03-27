@@ -1,0 +1,47 @@
+/** Stylus Styles */
+@require '../node_modules/vuetify/src/stylus/settings/_colors'
+//@require '../../node_modules/vuetify/src/stylus/settings/_variables'
+//@require '../../node_modules/vuetify/src/stylus/settings/_theme'
+$theme := {
+  primary: $light-blue.darken-1
+  accent: $orange.accent-2
+  secondary: $grey.darken-3
+  info: $blue.lighten-1
+  warning: $amber.darken-2
+  error: $red.lighten-2
+  success: $green.lighten-2
+}
+
+$spacer := 16px
+$spacer-x := $spacer
+$spacer-y := $spacer
+
+$spacers := {
+ zero: {
+   x: 0,
+   y: 0
+ },
+ one: {
+   x: ($spacer-x * .5),
+   y: ($spacer-y * .5)
+ },
+ two: {
+   x: $spacer-x,
+   y: $spacer-y
+ },
+ three: {
+
+   x: ($spacer-x * 1.5),
+   y: ($spacer-y * 1.5)
+ },
+ four: {
+   x: ($spacer-x * 3),
+   y: ($spacer-y * 3)
+ },
+ five: {
+    x: ($spacer-x * 8.5),
+   y: ($spacer-y * 8.5)
+ }
+}
+
+@require '../node_modules/vuetify/src/stylus/main'
